@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar_main);
         setSupportActionBar(toolbar);
         getSupportActionBar().setTitle("Kategorien");
+        print("nigga")
     }
     public void kategorie_genommen (View view){
         Intent intent = new Intent(this, Kategorie_Auswahl.class);
